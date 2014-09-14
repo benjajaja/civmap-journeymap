@@ -14,9 +14,9 @@ if under:
 if over:
 	print "merging all tiles OVER current tileset"
 
-for x in range(-26, 26):
+for x in range(-30, 30):
 	print x
-	for y in range(-26, 26):
+	for y in range(-30, 30):
 		source = "%s/%d,%d.png" % (dir, x, y);
 		dest = "master/%d,%d.png" % (x, y);
 		if not os.path.exists(source):
