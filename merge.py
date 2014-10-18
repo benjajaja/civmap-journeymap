@@ -35,6 +35,8 @@ for x in range(-30, 30):
 			# print "older: %s %d" % (source, os.path.getmtime(dest))
 			call("composite -compose Dst_Over %s %s %s" % (source, dest, dest), shell=True)
 			# print "under %s" % source
+			sourcetime = os.path.getmtime(source)
+			os.utime(dest, (sourcetime, sourcetime))
 		else:
 			call("composite -compose Over %s %s %s" % (source, dest, dest), shell=True)
 			print "over %s" % source
