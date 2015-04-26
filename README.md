@@ -1,6 +1,8 @@
 Civcraft map data
 =================
 
+![](http://txapu.com/img/logo.png)
+
 This repo is where player contributions are saved.
 
 ### How to contribute imagery
