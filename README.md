@@ -41,4 +41,4 @@ I will try to update *at least* once a month. The merger process is complicated 
 
 ### How does all this work?
 
-See https://github.com/gipsy-king/civmap-client
+See https://github.com/gipsy-king/civmap-client. That is also the place to create issues about bugs with the web interface.
