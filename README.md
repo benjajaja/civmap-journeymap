@@ -35,6 +35,10 @@ Additionally you can optionally include the following info:
 
 Create an issue with an image with the rails drawn over the map. Rails MUST follow exact underground path. A rail addition may take longer if it is considered necessary to be verified in person (in game).
 
+### How long will it take?
+
+I will try to update *at least* once a month. The merger process is complicated and uses file modification times to decide how to add images, and since git does not track file mtimes, each time an archive must be created previous merge in case there is bad data.
+
 ### How does all this work?
 
 See https://github.com/gipsy-king/civmap-client
